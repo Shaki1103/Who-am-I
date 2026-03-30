@@ -81,7 +81,7 @@ export default function StrengthPage() {
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">When do you feel your realistic attitude?</div>
 
               <div className="font-patua-one m-5">
-                I feel my realistic attitude when I face problems. I usually try to solve problems from a realistic aspect. I usually think about things based on numbers and data. ***EXAMPLE***
+                When I face a problem, I strongly feel the importance of being realistic. I always try to think about solutions from a realistic perspective rather than judging things solely on emotion. For example, when planning my test preparation, I consider how much time I should spend on each subject based on the remaining study time and past score data. I plan to allocate more time to subjects I struggle with or where my scores are stagnating, and study my strong subjects efficiently with the minimum amount of time.
               </div>
           </div>
           
@@ -89,7 +89,7 @@ export default function StrengthPage() {
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Do you like something logical?</div>
 
               <div className="font-patua-one m-5">
-                Yes, I do like logical things such as mathematics and programming and I think I’m good at logical things. 
+                Yes, I really like logical thinking. I'm especially interested in things that require systematic thinking, like mathematics and programming. I feel good at organizing things in a sequential manner and considering cause and effect, and I get a great sense of accomplishment when I find a solution. I also believe that logical thinking is useful in studying and in daily life, and I feel that logical thinking is essential for solving problems efficiently.
               </div>
           </div>
           
@@ -97,7 +97,7 @@ export default function StrengthPage() {
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Do you think that you have self smart?</div>
 
               <div className="font-patua-one m-5">
-                To be honest, I don’t feel that I have good self smart so was surprised at this result. I sometimes try to think about myself when I made a mistake or get emotional. The more I try to think, the less I understand myself. 
+                To be honest, I was a little surprised by the results because I didn't think I was very good at self-understanding. Sometimes, when I make a mistake or get emotional, I try to think about myself. However, the more I think about it, the more I can't organize my feelings and thoughts properly, and sometimes I end up not understanding myself at all. Even when I try to understand the reasons behind my actions and emotions, I often don't get the answers I want, and sometimes I get a little confused. Nevertheless, I believe it's important to try to understand myself, so I'm trying to get to know myself little by little.
               </div>
           </div>
           
@@ -105,7 +105,7 @@ export default function StrengthPage() {
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What strength do you most want to develop?</div>
 
               <div className="font-patua-one m-5">
-                The strength that I most want to develop is self smart. This is because understanding myself and dealing with myself well are important for living happily.
+                The strength I most want to develop is self smart. This refers to the ability to understand oneself well and to effectively deal with one's own emotions and thoughts. When you understand yourself, it becomes easier to control your emotions and to respond calmly to stress and difficult situations. Also, by understanding your strengths and weaknesses, you can set goals and approach things in a way that suits you. I believe that understanding and being able to manage myself well is very important for living a happier and more fulfilling life. Therefore, I want to develop this ability little by little.
               </div>
           </div>
 

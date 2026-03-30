@@ -81,25 +81,21 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you want to become a programmer?</div>
 
               <div className="flex">
-                <div className="font-patua-one m-5 mb-0 mr-0">
-                  This is because I like programming and am good at programming. I usually spend my spare time on programming.
+                <div className="font-patua-one m-5 mb-0 mr-0 w-200">
+                  This is because I enjoy programming and feel relatively good at it. I usually spend my free time programming, trying out new technologies and creating small programs. I find programming very interesting because it allows me to turn my own ideas into working systems.
                 </div>
-                <Link href="/hobby#Why_do_you_like_programming?" className="mt-6 ml-1 font-patua-one no-underline hover:text-blue-600 hover:underline transition text-sm">
+                <Link href="/hobby#Why_do_you_like_programming?" className="mt-8 ml-1 font-patua-one no-underline hover:text-blue-600 hover:underline transition text-sm">
                   Click here to My Hobby
                 </Link>
               </div>
 
-              <div className="font-patua-one m-5 mt-0 mb-0">
-                I usually spend my spare time on programming. 
-              </div>
-
               <div className="">
                 <div className="font-patua-one m-5 mt-0">
-                  In addition, according to the result of Multi Intelligence Quiz, I have strong logic smart, which is required for programmer.
+                  Furthermore, according to the results of the Multi Intelligence Quiz, I was found to have relatively strong logical thinking skills. Logical thinking is one of the important abilities for programmers, as it is useful for organizing problems and thinking of efficient solutions. Therefore, I feel that this result is one of the reasons why I am interested in programming and enjoy working on it.
                 </div>
 
                 <div className="w-100 mb-5 flex m-auto">
-                  <div className="m-5">
+                  <div className="m-5 mt-0">
                     <img src="/MultiIntelligenceQUizResult_2.png" alt="Multi Intelligence Quiz Result" className="object-contain"></img>
                   </div>
                 </div>

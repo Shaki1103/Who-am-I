@@ -51,7 +51,7 @@ export default function Home() {
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What is this website for?</div>
               <div className="">
                 <div className="font-patua-one m-5">
-                  This website is created for as part of Who am I task. This contains 5 sections.
+                  This website is created as part of Who am I task. This contains 5 sections.
                 </div>
 
                 <div className="m-5 ml-10">
