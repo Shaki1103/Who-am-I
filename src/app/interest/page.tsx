@@ -2,6 +2,7 @@
 
 import {usePathname} from "next/navigation";
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 const navItems = [
   {name: "HOME", href: "/"},
@@ -50,7 +51,13 @@ export default function InterestPage() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What are you interested in?</div>
 
               <div className="font-patua-one m-5">
@@ -59,16 +66,30 @@ export default function InterestPage() {
                 ・Information Technology (IT)<br></br>
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why are you interested in English?</div>
 
               <div className="font-patua-one m-5">
                 The reason is benefits of skills of speaking English. English is spoken by over 1.5 billion people around the world, which means that English is a significant tool to communicate with other people. English is spoken widely, so it is worth learning English. Also, speaking English can broaden my career options. In Japan, speaking English is an important skill and is assessed highly. Every entrance exam has an English subject. Therefore, I’m interested in English and learning English.
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">How good is your English?</div>
 
               <div className="font-patua-one m-5">
@@ -114,24 +135,45 @@ export default function InterestPage() {
                 </p>
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">How do you feel when you speak English?</div>
 
               <div className="font-patua-one m-5">
                 I feel it difficult to speak in English. Especially, expressing my thought and conveying it is difficult for me. I usually cannot find out good expression in English. Also, my listening skill is not good, and often miss what other people say. Looking my results of English test, listening and speaking is my weakness. I feel lack of my English skill when I speak in English.
               </div>
           </div>
+          </motion.div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why are you interested in IT?</div>
 
               <div className="font-patua-one m-5">
                 The reason that I’m interested in IT is my curiosity. I want to understand mechanisms of something relates to IT, such as how a computer woks, how an electric car operates, and how an internet works. In modern times, there are many IT-related things around us that we use without understanding how they work. Such things are interesting for me.
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What technology are you interested in most?</div>
 
               <div className="flex" >
@@ -144,8 +186,15 @@ export default function InterestPage() {
                 </div>
               </div>
           </div>
+          </motion.div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What have you done so far in the IT field?</div>
 
               <div className="font-patua-one m-5">
@@ -176,6 +225,7 @@ export default function InterestPage() {
                 </div>
               </div>
           </div>
+          </motion.div>
 
         </div>
       </div>

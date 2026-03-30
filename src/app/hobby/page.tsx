@@ -2,6 +2,7 @@
 
 import {usePathname} from "next/navigation";
 import Link from "next/link";
+import {motion} from "framer-motion"
 
 const navItems = [
   {name: "HOME", href: "/"},
@@ -48,7 +49,13 @@ export default function HobbyPage() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What is your hobby?</div>
 
               <div className="font-patua-one m-5">
@@ -57,16 +64,30 @@ export default function HobbyPage() {
                 ・Stationary<br></br>
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5" id="Why_do_you_like_programming?">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5" id="Why_do_you_like_programming?">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you like programming?</div>
 
               <div className="font-patua-one m-5">
                 The reason that I like programming is that it is useful. Computers can do things that humans cannot do. For example, human cannot calculate pi to 100 million digits, but a computer can do in 100 seconds. Programming makes so many things possible. This is the biggest advantage of programming, and what I’m attracted in.
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What did inspire you to start programming, and when?</div>
 
               <div className = "flex">
@@ -76,12 +97,19 @@ export default function HobbyPage() {
                 </div>
 
                 <div className = "m-5">
-                  <iframe width="448" height="252" src="https://www.youtube.com/embed/Y3WEQDSaQ_E?si=558GncencJByTNld" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                  <iframe width="448" height="252" src="https://www.youtube.com/embed/Y3WEQDSaQ_E?si=558GncencJByTNld" title="YouTube video player" frameborder-2="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">How does programming impact you now?</div>
               
 
@@ -98,8 +126,15 @@ export default function HobbyPage() {
               </div>
               
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you like stationary?</div>
 
               <div className="font-patua-one m-5">
@@ -119,8 +154,15 @@ export default function HobbyPage() {
                 </div>
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What did inspire you to collect stationary, and when?</div>
 
               <div className="flex">
@@ -139,16 +181,22 @@ export default function HobbyPage() {
                 </div>
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">How does stationary impact you now?</div>
 
               <div className="font-patua-one m-5">
                 Stationery has had a significant impact on my current study habits and way of thinking. Choosing easy-to-use pens and notebooks has increased my motivation to study and allowed me to concentrate better on my learning. I also feel that by improving my note-taking and organization methods, I have developed the ability to summarize information clearly. Furthermore, the process of choosing stationery has fostered the habit of considering tools that suit me. In this way, stationery is not merely a tool, but an important element that shapes my learning style and way of thinking.
               </div>
           </div>
-
-
+          </motion.div>
           
         </div>
       </div>

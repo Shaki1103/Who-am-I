@@ -2,6 +2,7 @@
 
 import {usePathname} from "next/navigation";
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 const navItems = [
   {name: "HOME", href: "/"},
@@ -48,7 +49,13 @@ export default function CareerPage() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What career do you want to do in the future?</div>
               <div className="flex">
                 <div className="font-patua-one m-5">
@@ -61,8 +68,15 @@ export default function CareerPage() {
                 
               </div>
           </div>
-
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          </motion.div>
+          
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What does your personality quiz result say?</div>
 
               <div className="font-patua-one flex">
@@ -76,8 +90,15 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
                 </div>
               </div>
           </div>
+          </motion.div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you want to become a programmer?</div>
 
               <div className="flex">
@@ -102,8 +123,15 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
               </div>
               
           </div>
+          </motion.div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you want to become a data scientist?</div>
 
               <div className="font-patua-one m-5">
@@ -113,8 +141,15 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
                 <img src="/DataScientist.png" alt="Multi Intelligence Quiz Result" className="object-contain"></img>
               </div>
           </div>
+          </motion.div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800 mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you want to become a security system technician?</div>
 
               <div className="font-patua-one m-5">
@@ -125,6 +160,7 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
                   <img src="/CareerPersonalityQuizResult_ITjobs.png" alt="Career Personality Quiz Result IT jobs" className="object-contain"></img>
               </div>
           </div>
+          </motion.div>
         </div>
       </div>
     </div>

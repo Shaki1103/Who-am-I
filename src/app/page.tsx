@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What is this website for?</div>
               <div className="">
                 <div className="font-patua-one m-5">
