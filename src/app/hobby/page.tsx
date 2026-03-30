@@ -48,7 +48,7 @@ export default function HobbyPage() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What is your hobby?</div>
 
               <div className="font-patua-one m-5">
@@ -58,7 +58,7 @@ export default function HobbyPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border" id="Why_do_you_like_programming?">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5" id="Why_do_you_like_programming?">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you like programming?</div>
 
               <div className="font-patua-one m-5">
@@ -66,7 +66,7 @@ export default function HobbyPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What did inspire you to start programming, and when?</div>
 
               <div className = "flex">
@@ -81,7 +81,7 @@ export default function HobbyPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">How does programming impact you now?</div>
               
 
@@ -99,7 +99,7 @@ export default function HobbyPage() {
               
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you like stationary?</div>
 
               <div className="font-patua-one m-5">
@@ -120,7 +120,7 @@ export default function HobbyPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What did inspire you to collect stationary, and when?</div>
 
               <div className="flex">
@@ -140,13 +140,11 @@ export default function HobbyPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
-              <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What stationary did you buy, and do you want to buy?</div>
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
+              <div className="text-4xl font-alfa-slab-one mt-3 ml-3">How does stationary impact you now?</div>
 
               <div className="font-patua-one m-5">
-                I have some stationaries, and they are especially my favorite one. **PICTURE**
-Some stationary I really want to buy are…
-**PICTURE, LINK**
+                Stationery has had a significant impact on my current study habits and way of thinking. Choosing easy-to-use pens and notebooks has increased my motivation to study and allowed me to concentrate better on my learning. I also feel that by improving my note-taking and organization methods, I have developed the ability to summarize information clearly. Furthermore, the process of choosing stationery has fostered the habit of considering tools that suit me. In this way, stationery is not merely a tool, but an important element that shapes my learning style and way of thinking.
               </div>
           </div>
 

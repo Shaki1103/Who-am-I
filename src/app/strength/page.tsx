@@ -47,7 +47,7 @@ export default function StrengthPage() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What is your strength?</div>
               <div className="flex">
                 <div className="font-patua-one m-5">
@@ -69,7 +69,7 @@ export default function StrengthPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">When do you feel your flexible/adaptable?</div>
 
               <div className="font-patua-one m-5">
@@ -77,7 +77,7 @@ export default function StrengthPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">When do you feel your realistic attitude?</div>
 
               <div className="font-patua-one m-5">
@@ -85,7 +85,7 @@ export default function StrengthPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Do you like something logical?</div>
 
               <div className="font-patua-one m-5">
@@ -93,7 +93,7 @@ export default function StrengthPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Do you think that you have self smart?</div>
 
               <div className="font-patua-one m-5">
@@ -101,7 +101,7 @@ export default function StrengthPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What strength do you most want to develop?</div>
 
               <div className="font-patua-one m-5">

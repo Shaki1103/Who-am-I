@@ -48,7 +48,7 @@ export default function CareerPage() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What career do you want to do in the future?</div>
               <div className="flex">
                 <div className="font-patua-one m-5">
@@ -62,7 +62,7 @@ export default function CareerPage() {
               </div>
           </div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What does your personality quiz result say?</div>
 
               <div className="font-patua-one flex">
@@ -77,7 +77,7 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you want to become a programmer?</div>
 
               <div className="flex">
@@ -103,22 +103,22 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
               
           </div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you want to become a data scientist?</div>
 
               <div className="font-patua-one m-5">
-                This is because I’m interested in this field, data science. Also, logical smart is required for this job, and it’s also the reason that I want to do this job. In addition, the average salary of data scientist is high, and it's also the reason I want to do data scientist.
+                This is because I have a strong interest in the field of data science. Data science is a field that analyzes large amounts of data to find meaningful information and new discoveries, which I find very appealing. Also, logical thinking are considered important in this job. I am relatively good at thinking logically, and the fact that I thought this job would allow me to utilize that ability is one of the reasons why I want to become a data scientist. Furthermore, data scientists are known to be a high-paying profession, and the high probability of being able to live a stable life in the future is also appealing to me.
               </div>
               <div className="w-200 m-auto">
                 <img src="/DataScientist.png" alt="Multi Intelligence Quiz Result" className="object-contain"></img>
               </div>
           </div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why do you want to become a security system technician?</div>
 
               <div className="font-patua-one m-5">
-                The reason that I want to become a security system technician is that I’m also interested in security. Moreover, the result of Career Personality Quiz says that this job is recommended for me.
+                This is because I am also interested in the field of security. I believe that protecting computers and networks is extremely important in modern society. With the increasing number of problems such as cyberattacks and data breaches, I feel that the work of protecting systems has great value and responsibility. For this reason, I have become attracted to the profession of security system engineer. Furthermore, the Career Personality Quiz also recommended this profession as a suitable career for me. From these results, I felt that my personality and abilities might be a good match for this field, and I became even more interested in it.
               </div>
 
               <div className="flex items-center justify-center">

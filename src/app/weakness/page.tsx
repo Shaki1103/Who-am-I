@@ -48,7 +48,7 @@ export default function WeaknessPage() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What is your weakness?</div>
 
               <div className="flex">
@@ -71,15 +71,15 @@ export default function WeaknessPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">When do you feel your disliking verbal communication?</div>
 
               <div className="font-patua-one m-5">
-                I feel my bad verbal communication when I speak in front of the audience. I get nervous and can’t speak well in front of crowds. I also sometimes cannot express my feeling well, especially, when I get angry or sad.
+                I feel that I'm not very good at verbal communication when speaking in front of others. Especially when I have to speak in front of a large group of people, I get nervous and sometimes can't put my thoughts into words properly. Even when I have something I want to say, I get flustered or stumble over my words and can't speak as I intended. I also sometimes find it difficult to express my emotions in words. In particular, when I'm angry or sad, I can't calmly explain my feelings and can't communicate them well to others. Therefore, I want to be able to calmly express my thoughts and feelings in words more effectively.
               </div>
           </div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">When do you become insensitive to others?</div>
 
               <div className="font-patua-one m-5">
@@ -87,7 +87,7 @@ export default function WeaknessPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Do you have interest for the nature?</div>
 
               <div className="font-patua-one m-5">
@@ -95,7 +95,7 @@ export default function WeaknessPage() {
               </div>
           </div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Are you good at music?</div>
 
               <div className="font-patua-one m-5">
@@ -103,7 +103,7 @@ export default function WeaknessPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Do you exercise regularly?</div>
 
               <div className="font-patua-one m-5">
@@ -111,11 +111,11 @@ export default function WeaknessPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What weakness do you most want to overcome?</div>
 
               <div className="font-patua-one m-5">
-                I really want to overcome disliking verbal communication because communication skills would be very important in society.
+                I am very keen to overcome my weakness in verbal communication. This is because I believe that communication skills are extremely important in the workplace. At school and in the workplace, there are many situations where you need to cooperate with many people to accomplish things and convey your own thoughts to others. In such situations, I think it is very important to be able to clearly explain your opinions and thoughts in words. Furthermore, communication skills are indispensable for building good relationships. Therefore, I would like to overcome my aversion to verbal communication by gradually increasing opportunities to talk with people and practicing expressing my thoughts in words.
               </div>
           </div>
         </div>

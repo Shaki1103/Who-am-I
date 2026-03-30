@@ -50,7 +50,7 @@ export default function InterestPage() {
 
           <div className="w-full h-20"></div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What are you interested in?</div>
 
               <div className="font-patua-one m-5">
@@ -60,7 +60,7 @@ export default function InterestPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why are you interested in English?</div>
 
               <div className="font-patua-one m-5">
@@ -68,7 +68,7 @@ export default function InterestPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">How good is your English?</div>
 
               <div className="font-patua-one m-5">
@@ -115,7 +115,7 @@ export default function InterestPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">How do you feel when you speak English?</div>
 
               <div className="font-patua-one m-5">
@@ -123,7 +123,7 @@ export default function InterestPage() {
               </div>
           </div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Why are you interested in IT?</div>
 
               <div className="font-patua-one m-5">
@@ -131,15 +131,21 @@ export default function InterestPage() {
               </div>
           </div>
           
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What technology are you interested in most?</div>
 
-              <div className="font-patua-one m-5">
-                I’m interested in Machine Learning, including Artificial Intelligence. This is because Machine Learning can solve and automate complex problems at a speed and scale that humans simply can't. I'm fascinated by how they make things possible that humans can't.
+              <div className="flex" >
+                <div className="font-patua-one m-5 mr-0">
+                  I’m interested in Machine Learning, including Artificial Intelligence. This is because Machine Learning can solve and automate complex problems at a speed and scale that humans simply can't. I'm fascinated by how they make things possible that humans can't.
+                </div>
+
+                <div className="w-130 m-5 ml-0 mt-0">
+                    <img src="/AI.jpg" alt="AI" className="object-contain"></img>
+                </div>
               </div>
           </div>
 
-          <div className="w-full h-auto bg-white rounded-2xl border">
+          <div className="w-full h-auto bg-white rounded-2xl border mb-5">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What have you done so far in the IT field?</div>
 
               <div className="font-patua-one m-5">
@@ -147,14 +153,26 @@ export default function InterestPage() {
               </div>
               
               <div className="flex">
-                <div className="font-patua-one m-5 flex justify-center items-center">
+                <div className="font-patua-one m-5 flex justify-center items-center mr-0">
                   <p>
-                    For example, I made a Ray Tracing engine, which is a program that simulates the physical behavior of light to generate realistic images that are close to the real world.
+                    For example, I made a Ray Tracing engine, which is a program that simulates the physical behavior of light to generate realistic images that are close to the real world. The image on the right shows the calculation results of a program I created.
                   </p>
                 </div>
                 
-                <div className = "w-100 m-5">
+                <div className = "w-200 m-5">
                   <img src="/RayTracing.png" alt="Ray Tracing Engine" className="object-contain"></img>
+                </div>
+              </div>
+
+              <div className="m-5 flex">
+                <div className="font-patua-one mr-5 flex items-center justify-center">
+                  <p>
+                    I also created this website using programming! Actually, it was my first time creating a website, and I encountered many difficulties. Technically, I used Next.js and Tailwind CSS. The image on the right is a screenshot showing me developing this website.
+                  </p>
+                </div>
+
+                <div className="w-250">
+                  <img src="/Developping_ScreenShot.png" alt="Screen Shot of developping" className="object-contain"></img>
                 </div>
               </div>
           </div>
