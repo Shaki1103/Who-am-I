@@ -1,6 +1,7 @@
 "use client"
 import {usePathname} from "next/navigation";
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 const navItems = [
   {name: "HOME", href: "/"},
@@ -47,6 +48,12 @@ export default function Home() {
 
           <div className="w-full h-20"></div>
 
+          <motion.div
+            initial={{ opacity: 0, y:50}}
+            whileInView={{ opacity: 1, y:0}}
+            viewport={{ once: true}}
+            transition={{duration: 0.8, ease: "easeOut"}}
+          >
           <div className="w-full h-auto bg-white rounded-2xl border-4 border-slate-800">
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">What is this website for?</div>
               <div className="">
@@ -74,6 +81,7 @@ export default function Home() {
                 
               </div>
           </div>
+          </motion.div>
 
 
         </div>
