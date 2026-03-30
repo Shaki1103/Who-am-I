@@ -96,7 +96,7 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
 
                 <div className="w-100 mb-5 flex m-auto">
                   <div className="m-5 mt-0">
-                    <img src="/MultiIntelligenceQUizResult_2.png" alt="Multi Intelligence Quiz Result" className="object-contain"></img>
+                    <img src="/MultiIntelligenceQuizResult_2.png" alt="Multi Intelligence Quiz Result" className="object-contain"></img>
                   </div>
                 </div>
               </div>
