@@ -15,7 +15,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: url("/BackGround.png") center/cover no-repeat;
+  background: url("/BackGround.PNG") center/cover no-repeat;
   z-index: -1;
 }
 
