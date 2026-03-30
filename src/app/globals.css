@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-alfa-slab-one: var(--font-alfa-slab-one);
+  --font-patua-one: var(--font-patua-one);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("/BackGRound.PNG") center/cover no-repeat;
+  z-index: -1;
+}
+
+/* 少し欠けた楕円 */
+.ellipse {
+  width: 120px;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+
+  backdrop-filter: blur(2px);
+}
