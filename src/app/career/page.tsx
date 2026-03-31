@@ -44,7 +44,8 @@ export default function CareerPage() {
         </div>
 
         {/*メインコンテンツ*/}
-        <div className="w-full h-full p-5 bg-white rounded-2xl overflow-auto">
+        <div className="w-full h-full bg-white rounded-2xl overflow-hidden">
+          <div className="w-full h-full p-5 overflow-auto">
           <div className="text-7xl tracking-wide font-alfa-slab-one mt-10">CAREER</div>
 
           <div className="w-full h-20"></div>
@@ -161,6 +162,7 @@ Because they are practical and good at problem-solving, Craftsmen are suited to 
               </div>
           </div>
           </motion.div>
+          </div>
         </div>
       </div>
     </div>

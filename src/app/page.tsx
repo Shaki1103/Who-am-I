@@ -43,7 +43,8 @@ export default function Home() {
         </div>
 
         {/*メインコンテンツ*/}
-        <div className="w-full h-full p-5 bg-white rounded-2xl overflow-auto">
+        <div className="w-full h-full bg-white rounded-2xl overflow-hidden">
+          <div className="w-full h-full p-5 overflow-auto">
           <div className="text-7xl tracking-wide font-alfa-slab-one mt-10">Who am I?</div>
 
           <div className="w-full h-20"></div>
@@ -82,8 +83,8 @@ export default function Home() {
               </div>
           </div>
           </motion.div>
-
-
+          
+          </div>
         </div>
       </div>
     </div>

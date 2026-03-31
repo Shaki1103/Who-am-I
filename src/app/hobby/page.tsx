@@ -44,7 +44,8 @@ export default function HobbyPage() {
         </div>
 
         {/*メインコンテンツ*/}
-        <div className="w-full h-full p-5 bg-white rounded-2xl overflow-auto">
+        <div className="w-full h-full bg-white rounded-2xl overflow-hidden">
+          <div className="w-full h-full p-5 overflow-auto">
           <div className="text-7xl tracking-wide font-alfa-slab-one mt-10">HOBBY</div>
 
           <div className="w-full h-20"></div>
@@ -96,7 +97,7 @@ export default function HobbyPage() {
                   </p>
                 </div>
 
-                <div className = "m-5">
+                <div className = "m-5 ml-0">
                   <iframe width="448" height="252" src="https://www.youtube.com/embed/Y3WEQDSaQ_E?si=558GncencJByTNld" title="YouTube video player" frameborder-2="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
               </div>
@@ -197,7 +198,7 @@ export default function HobbyPage() {
               </div>
           </div>
           </motion.div>
-          
+          </div>
         </div>
       </div>
     </div>

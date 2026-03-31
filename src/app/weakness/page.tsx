@@ -32,7 +32,7 @@ export default function WeaknessPage() {
             href={item.href}
             className={`px-3 py-2 rounded-md transition  ${
               isActive 
-                ? "bg-gray-100/80 text-gray-900 font-alfa-slab-one tracking-wider" // アクティブ時のスタイル
+                ? "bg-gray-100/80 text-gray-900 font-alfa-slab-one tracking-wider" // アクティブ時のスタイル 
                 : "text-gray-900 hover:bg-gray-200 font-patua-one tracking-wide"  // 通常時のスタイル
             }`}
           >
@@ -44,7 +44,8 @@ export default function WeaknessPage() {
         </div>
 
         {/*メインコンテンツ*/}
-        <div className="w-full h-full p-5 bg-white rounded-2xl overflow-auto">
+        <div className="w-full h-full bg-white rounded-2xl overflow-hidden">
+          <div className="w-full h-full p-5 overflow-auto">
           <div className="text-7xl tracking-wide font-alfa-slab-one mt-10">WEAKNESS</div>
 
           <div className="w-full h-20"></div>
@@ -134,7 +135,7 @@ export default function WeaknessPage() {
               <div className="text-4xl font-alfa-slab-one mt-3 ml-3">Are you good at music?</div>
 
               <div className="font-patua-one m-5">
-                No, I am bad at music. My music grade is always not good. At the song test of music class, the pitch was so off that the teacher had to smile wryly. Thus, I have no talent of music and often feel my less music smart.
+                No, I'm not very good at music. In fact, my grades in music are never very good. Especially during singing tests in music class, I'm often so off-key that I can even tell myself. I've even seen the teacher give a slightly troubled, wry smile on those occasions. Because of that experience, I often feel that I don't have much musical talent. I also feel that my music smart isn't very high. As a result, I often lack confidence when it comes to music.
               </div>
           </div>
           </motion.div>
@@ -168,6 +169,7 @@ export default function WeaknessPage() {
               </div>
           </div>
           </motion.div>
+          </div>
         </div>
       </div>
     </div>
